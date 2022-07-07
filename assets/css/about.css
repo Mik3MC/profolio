@@ -1,0 +1,73 @@
+html { 
+  background: url(https://images.wallpapersden.com/image/download/hotline-miami-artwork_a2hobmmUmZqaraWkpJRmbmdlrWZlbWU.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin: 0px;
+  color: aliceblue;
+}
+
+.container {
+  margin: 0 auto;
+  /* margin: 20px 211px; */
+  padding: 20px;
+ border: #111;
+ border-style: dashed;
+  margin-top: 20px;
+  width: 960px;
+}
+
+nav{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+    
+#logo{
+  float: left;
+  color: rgb(0, 0, 0);
+  right: 40px;
+  background-color: rgb(127, 172, 255);
+  text-align: center;
+  display: inline;
+  padding: 40px;
+  margin-left: 28px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+li {
+    list-style-type: none;
+  float: right;
+}
+  
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+ul { 
+  margin-top: 28px;
+  margin-right: 60px;
+  font-size: 20px;
+}
+
+
+
